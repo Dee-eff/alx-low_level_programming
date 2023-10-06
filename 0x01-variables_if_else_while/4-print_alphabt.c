@@ -7,17 +7,13 @@
  */
 int main(void)
 {
-char lowercase = 'a';
-char uppercase = 'A';
-while (lowercase <= 'z')
+char letter = 'a';
+while (letter <= 'z' + 'Z')
 {
-putchar(lowercase);
-lowercase++;
-}
-while (uppercase <= 'Z')
-{
-putchar(uppercase);
-uppercase++;
+putchar(letter);
+if (letter == 'z')
+letter = 'A' - 1;
+letter++;
 }
 putchar('\n');
 return (0);
