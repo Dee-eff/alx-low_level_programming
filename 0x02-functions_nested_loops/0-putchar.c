@@ -1,10 +1,13 @@
 #include <stdio.h>
 
 /**
-* main: entry point
-* printf: print _putchar
-* return 0 always (SUCCESS)
+* main - Entry point
+*
+* Description: This prints "_putchar"
+*
+* Return: Always 0 (Success)
 */
+
 
 int main(void)
 /*Return: always return (0)*/
