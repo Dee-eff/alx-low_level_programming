@@ -3,7 +3,7 @@
 /**
 * main - check the code
 *
-* Description: print the alphabets in lowercase followed by a new line
+* print_alphabet: print the alphabets in lowercase followed by a new line
 *
 * Return: Always 0.
 */
