@@ -1,9 +1,8 @@
-// main.c
-#include "main.h"
+#ifndef MAIN_H
+#define MAIN_H
 
-int main(void)
-{
-_puts_recursion("Puts with recursion");
+#include <stdio.h>
 
-return (0);
-}
+void _puts_recursion(char *s);
+
+#endif
